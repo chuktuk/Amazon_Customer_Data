@@ -1,0 +1,52 @@
+2020-02-22 16:49:35,561 ----------------------------------------------------------------------------------------------------
+2020-02-22 16:49:35,562 Model: "TextClassifier(
+  (document_embeddings): DocumentRNNEmbeddings(
+    (embeddings): StackedEmbeddings(
+      (list_embedding_0): WordEmbeddings('glove')
+      (list_embedding_1): FlairEmbeddings(
+        (lm): LanguageModel(
+          (drop): Dropout(p=0.25, inplace=False)
+          (encoder): Embedding(275, 100)
+          (rnn): LSTM(100, 1024)
+          (decoder): Linear(in_features=1024, out_features=275, bias=True)
+        )
+      )
+      (list_embedding_2): FlairEmbeddings(
+        (lm): LanguageModel(
+          (drop): Dropout(p=0.25, inplace=False)
+          (encoder): Embedding(275, 100)
+          (rnn): LSTM(100, 1024)
+          (decoder): Linear(in_features=1024, out_features=275, bias=True)
+        )
+      )
+    )
+    (word_reprojection_map): Linear(in_features=2148, out_features=256, bias=True)
+    (rnn): GRU(256, 512, batch_first=True)
+    (dropout): Dropout(p=0.5, inplace=False)
+  )
+  (decoder): Linear(in_features=512, out_features=3, bias=True)
+  (loss_function): BCEWithLogitsLoss()
+  (beta): 1.0
+  (weights): None
+  (weight_tensor) None
+)"
+2020-02-22 16:49:37,571 ----------------------------------------------------------------------------------------------------
+2020-02-22 16:49:37,572 Corpus: "Corpus: 279798 train + 93266 dev + 124355 test sentences"
+2020-02-22 16:49:37,573 ----------------------------------------------------------------------------------------------------
+2020-02-22 16:49:37,574 Parameters:
+2020-02-22 16:49:37,575  - learning_rate: "0.1"
+2020-02-22 16:49:37,576  - mini_batch_size: "32"
+2020-02-22 16:49:37,577  - patience: "3"
+2020-02-22 16:49:37,578  - anneal_factor: "0.5"
+2020-02-22 16:49:37,579  - max_epochs: "10"
+2020-02-22 16:49:37,579  - shuffle: "True"
+2020-02-22 16:49:37,580  - train_with_dev: "False"
+2020-02-22 16:49:37,581  - batch_growth_annealing: "False"
+2020-02-22 16:49:37,582 ----------------------------------------------------------------------------------------------------
+2020-02-22 16:49:37,582 Model training base path: "."
+2020-02-22 16:49:37,583 ----------------------------------------------------------------------------------------------------
+2020-02-22 16:49:37,583 Device: cpu
+2020-02-22 16:49:37,584 ----------------------------------------------------------------------------------------------------
+2020-02-22 16:49:37,585 Embeddings storage mode: cpu
+2020-02-22 16:49:37,587 ----------------------------------------------------------------------------------------------------
+2020-02-22 18:00:26,530 loading file C:\Users\Chuck Tucker\.flair\models\imdb-v0.4.pt
