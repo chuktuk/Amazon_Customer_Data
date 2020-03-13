@@ -15,3 +15,10 @@ zz__1_ACD_Data_Wrangling.ipynb  -  initial wrangling project working with books 
 zz__1_Books_21Mil_Wrangling.ipynb  -  second attempt to work with a smaller version of the books data. This was still too large.<br>
 zz__Colab_TF_Keras_VG.ipynb  -  attempt to try to use Keras/TF to train a model on Google Colab free version. Ultimately abandoned due to lack of resources on the free Colab version.<br>
 zz__Test_Predict_VG.ipynb  -  experimental code to test the pre-trained Flair model.
+
+Additional Files:
+4_Sentiment_Final_Report_Presentation.ppt  -  powerpoint presentation of the final results
+4_Sentiment_Final_Report_Presentation.pdf  -  pdf version of the final report
+
+Miscellaneous:
+The other files in the folder are associated with training attempts on the models.
